@@ -43,5 +43,6 @@ class DialogBot extends ActivityHandler {
         await this.userState.saveChanges(context, false);
     }
 }
+//ajout code
 
 module.exports.DialogBot = DialogBot;
